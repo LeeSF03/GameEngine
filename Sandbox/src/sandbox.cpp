@@ -1,8 +1,18 @@
-#include <iostream>
-#include <test.h>
+#include <ge.h>
 
-int main(int argc, char const *argv[])
+class Sandbox : public ge::Application
 {
-  ge::print();
-  return 0;
+public:
+  Sandbox()
+  {
+  }
+
+  ~Sandbox()
+  {
+  }
+};
+
+ge::Application* ge::CreateApplication()
+{
+  return new Sandbox();
 }
