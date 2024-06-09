@@ -1,6 +1,4 @@
 #include <Application.h>
-#include <windows.h>
-#include <iostream>
 
 namespace ge
 {
@@ -17,8 +15,6 @@ namespace ge
   {
     while (true)
     {
-      Sleep(1000);
-      std::cout << "Running" << std::endl;
     }
   }
 
