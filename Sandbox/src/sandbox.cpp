@@ -1,5 +1,4 @@
 #include <ge.h>
-
 class Sandbox : public ge::Application
 {
 public:
