@@ -1,7 +1,7 @@
 #pragma once
 
-#include <string>
-#include <functional>
+#include <gepch.h>
+
 #include <Core.h>
 
 namespace ge

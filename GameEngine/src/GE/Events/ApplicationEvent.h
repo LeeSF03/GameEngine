@@ -1,8 +1,8 @@
 #pragma once
 
-#include <Events/Event.h>
+#include <gepch.h>
 
-#include <sstream>
+#include <Events/Event.h>
 
 namespace ge {
   class GE_API WindowdResizeEvent: public Event
